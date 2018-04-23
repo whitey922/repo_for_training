@@ -15,4 +15,8 @@ public class Demo {
 
         List<Integer> integers = strings.stream().map(Integer::valueOf).collect(Collectors.toList());
     }
+
+    public static void m1() {}
 }
+
+
